@@ -1,0 +1,367 @@
+<!DOCTYPE HTML>
+{% load static %}
+<html>
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />!
+<head>
+	<title>Areon</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="{% static 'assets\css\fontawesome-all.min.css' %}">
+	<link rel="stylesheet" href="{% static 'assets\css\main.css' %}">
+	<link rel="stylesheet" href="{% static 'assets\css\noscript.css' %}">
+	<link rel="stylesheet" href="http://github.hubspot.com/odometer/themes/odometer-theme-car.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- for testimonial -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- testimonials end -->
+	<noscript>
+		<link href="https://fonts.googleapis.com/css?family=Anton|Gudea&amp;display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Gudea&amp;display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+	<script async src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+		<!-- Odometr includes -->
+	<script async src="http://github.hubspot.com/odometer/odometer.js"></script>
+
+	<style>
+	#emissions, odomoter{
+		display:inline;
+		
+	}
+
+	</style>
+</head>
+
+<body class="is-preload landing">
+	<div id="page-wrapper">
+
+		<!-- Header -->
+		<div id="home"></div>
+		<header id="header">
+			<h1 id="logo"><a href="index.html"></a></h1>
+			<nav id="nav">
+				<ul>
+					<li class="nav-item"><a href="#home">Home</a></li>
+					<li class="nav-item"><a href="#services">Services</a></li>
+					<li class="nav-item"><a href="#contact">Contact</a></li>
+					<li class="nav-item"><a href="#testimonials">Testimonials</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<!-- Banner -->
+		<section id="banner">
+			<div class="content">
+				<header>
+					<h2>Welcome to Areon Mobility!</h2>
+					<p>Revolutionizing your Last Mile Deliveries <br > with state of the art Electric Mobility Solutions! <br> </p>
+						<p>&nbsp;</p>
+						<span><p id="emissions" style="font-size: 90%;">Emission-Less, green Miles uptil Now<img src="{% static 'images/greenleaf (2).png'%}" id="emissions" width="25" height="25" alt=""><div id="odometer" class="odometer">{{dist}}</div></p>
+					</header>
+				<img class="image" src="{% static 'images/Aren@1x.png' %}" alt="">
+			</div>
+			
+			<a href="#one" class="goto-next scrolly">Next</a>
+		</section>
+
+		
+		<!-- One -->
+		<div id="services"></div>
+		<section id="one" class="spotlight style1 bottom">
+			<span class="image fit main"><img src="{% static 'images/scooter-side.jpg' %}" alt="" /></span>
+			<div class="content">
+				<div class="container">
+					<div class="row">
+						<div class="col-4 col-12-medium">
+							<header>
+								<h2 id="how_does">HOW DOES AREON WORK?</h2>
+								<h2>Communicate</h2>
+								<p>Reach out to us for your delivery operations.</p>
+							</header>
+
+						</div>
+						<div class="col-4 col-12-medium">
+							<p>
+								You can reach to us and let us know regarding your plans to make delivery operations
+								emission-less and optimize your delivery operations.
+							</p>
+						</div>
+						<div class="col-4 col-12-medium">
+							<p>
+								A mobility partner like us can help you scale as much you can without the hassle of owning a fleet.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a href="#two" class="goto-next scrolly">Next</a>
+		</section>
+
+		<!-- Two -->
+		<section class="spotlight style2 right">
+			<span class="image fit main"><img src= "{%static 'images/collage.jpg' %} " alt="" /></span>
+			<div class="content">
+				<header>
+					<h2>Operations Design</h2>
+					<p></p>
+				</header>
+				<p>
+					Our Team of Operations Experts conduct a thorough assesment of your delivery operations with over 15+ variables and provide
+					you with multiple options to choose from, best suited to your needs. We take each company's operations with a fresh approach but
+					bring a along our domain knowledge accumulated over our experience. 
+
+				</p>
+
+			</div>
+
+		</section>
+
+		<!-- Three -->
+		<section id="three" class="spotlight style3 left">
+			<span class="image fit main bottom"><img src="{%static 'images/1mg.jpg' %}" width="500" height="500" alt="" /></span>
+			<div class="content">
+				<header>
+					<h2>Deployment</h2>
+					<p></p>
+				</header>
+				<p>A fleet that is ready not only to scale with you but also provide your Delivery Partners a better ride experience and comfort level, overall improving their performance
+					We setup Charging Infra for all the vehicles deployed at your site for easy management and remote monitoring.
+				</p>
+			</div>
+			<a href="#four" class="goto-next scrolly">Next</a>
+		</section>
+
+		<!-- Four -->
+		<section id="four" class="wrapper style1 special fade-up">
+			<div class="container">
+				<header class="major">
+					<h2 id="services">Why Areon Mobility?</h2>
+					<p>Driven by the concept of Sharing Economy which is transforming sustainability, 
+						the cost of services are less than their alternatives and by allowing people 
+						to share more and buy less.
+					</p>			
+				</header>
+				<div class="box alt">
+					<div class="row gtr-uniform">
+						<section class="col-4 col-6-medium col-12-xsmall">
+							<span id="image1"><img src="{% static 'images\incdc.png' %}" alt=""></span>
+							<h4>Dynamic Fleet Resizing</h4>
+							<p title="Mobility On Demand">You can choose to up-scale or downscale your fleet as per your requirement without any further costs, with Areon you not only have the flexibility but you pay for what you use.</p>
+						</section>
+						<section class="col-4 col-6-medium col-12-xsmall">
+							<span id="image5"><img src="{% static 'images\driver6.png' %}" alt=""></span>
+							<h4>Comprehensive Solution</h4>
+							<p>Our solution consists of Delivery optimized fleet to Setup of Charging Infra at your site for hassless operations. You also become part of the Areon Network of Drivers so that you may never fall short of Dedicated Delivery Agents.</p>
+						</section>
+						<section class="col-4 col-6-medium col-12-xsmall">
+							<span id="image5"><img src="{% static 'images\maps.png' %}" alt=""></span>
+							<h4>Delivery Analysis</h4>
+							<p>Our ML Algorithms provide Geo-Spatial Intelligence coupled with MMM (Mixed Marketing Models) provide your insights like never before, you can reach to delivery pockets for your products like never before. </p>
+						</section>
+						<section class="col-4 col-6-medium col-12-xsmall">
+							<span id="image4"><img src="{% static 'images\reduction.png' %}" alt=""></span>
+							<h4>Reduction in Total Cost Of Ownership</h4>
+							<p>Reducing Total Cost Of Ownership is vital to achieve high profitability, decrease overall downtime and improve productivity.</p>
+						</section>
+						<section class="col-4 col-6-medium col-12-xsmall">
+							<span id="image5"><img src="{% static 'images\performance analytics.png' %}" alt=""></span>
+							<h4>IoT Enabled Tracking and Analysis. </h4>
+							<p>With Vehicle Tracking Solutions powered by IoT devices, an Intelligent Transport System is more efficient, economical, automated and reliable.</p>
+						</section>
+						<section class="col-4 col-6-medium col-12-xsmall">
+							<span id="image4"><img src="{% static 'images/0maintenance.png'%}" alt=""></span>
+							<h4>Zero Maintenance Cost. </h4>
+							<p>Low maintenance is a myth it comes with a cost. We take care of the maintenance so that you can focus and invest in your businesses. </p>
+						</section>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+<!-- 
+		<div class="container-fluid">
+			<div class="container">
+			   <h1 style="text-align: center; font-size: 40px; position: relative; top: 90px; font-family:'Times New Roman', Times, serif;">Our <span style="color: dodgerblue;">a</span>ffili<span style="color:dodgerblue">a</span>tion<span style="color: dodgerblue;">s</span></h1>
+			</div>
+			<div class="row affiliates">
+			   <div class="col-2 col-4-medium col-12-xsmall">
+				   <span><img src="{% static 'images/picture1.PNG'%}" alt=""></span>
+			   </div>
+			   <div class="col-2 col-4-medium col-12-xsmall">
+				   <span><img src="{% static 'images/picture2.PNG'%}" alt=""></span>
+			   </div>
+			   
+			   
+			</div>
+		</div> -->
+		<!-- testimonial test -->
+		<div class="testimonialstyle">
+			<style scoped>
+			.testimonial, .overview{
+				font-size: 24px;
+
+			}
+			.testimonial{
+				color: #ffffff
+
+			}
+			
+			</style>	
+			<div id="testimonials"class="container-testimonial">
+						<div class="row">
+						<div class="col-md-8 col-center m-auto">
+							<h2 id="testih2">Testimonials</h2>
+							<div id="myCarousel" class="carousel slide" data-ride="carousel">
+								<!-- Carousel indicators -->
+								<ol class="carousel-indicators">
+									<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+									<li data-target="#myCarousel" data-slide-to="1"></li>
+									<li data-target="#myCarousel" data-slide-to="2"></li>
+									<li data-target="#myCarousel" data-slide-to="3"></li>
+								</ol>   
+								<!-- Wrapper for carousel items -->
+								<div class="carousel-inner">
+									<div class="item carousel-item active">
+										<div class="img-box"><img src="{% static 'images\aman profile.png' %}" alt=""></div>
+										<p class="testimonial">Our team is committed to bring the electric revolution and empower deliveries on sharing asset model, apart from bokki fitting we are hackers and doers.</p>
+										<p class="overview"><b>Aman Pal Singh</b>, Amtpl</p>
+									</div>
+									<div class="item carousel-item">
+										<div class="img-box"><img src="{% static 'images\gulshan.jpg'%}" alt=""></div>
+										<p class="testimonial">"Having services from Areon is a delight they are working with us areound the call...just a call away.Management is proactive, Great Service,Great Team"</p>
+										<p class="overview"><b>Gulshan Sharma</b>, Founder-Falhaari</p>
+									</div>
+									<div class="item carousel-item">
+										<div class="img-box"><img src="{% static 'images\gajjender.jpg'%}" alt=""></div>
+										<p class="testimonial">"with areon we have reduced our last mile deliveries costs substantially and overall management is on-point"</p>
+										<p class="overview"><b>Gajjender Singh Yadav</b>, Founder-4S Foods</p>
+									</div>
+									<div class="item carousel-item">
+											<div class="img-box"><img src="{% static 'images\adih.png'%}" alt=""></div>
+											<p class="testimonial">"areon is addressing a real issue in lmd's that is cost and enabling people to come and work as delivery partners by providing them delivery optimized bikes, great work,keep it up!"</p>
+											<p class="overview"><b>Adih Muskaan Saif</b>, Director of Operations – Arcos Group of Companies</p>
+									</div>
+								</div>
+								<!-- Carousel controls -->
+								<a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
+									<i class="fa fa-angle-left"></i>
+								</a>
+								<a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
+									<i class="fa fa-angle-right"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		<!-- testimonial ends here -->
+		<!--Contact Us Form  -->
+		<div id="contact" ></div>
+		<section id="form" class="container" >
+
+			<h2>Contact Us</h2>
+			<form id="form" method="POST" action="{% url 'submit'%}" >
+				{% csrf_token %}
+				<div class="row gtr-uniform gtr-50">
+					<div class="col-6 col-12-small">
+						<input type="text" name="name" autocomplete="off" id="name" required  value="" placeholder="Name" />
+					</div>
+					
+					<div class="col-6 col-12-small">
+						<input type="email" name="email" autocomplete="off" id="email" required   value="" placeholder="Email" />
+					</div>
+
+					<!-- <div class="col-6 col-12-small">
+						<input type="text" name="number" autocomplete="off" id="number" required  value="" placeholder="Phone" />
+					</div>
+
+					<div class="col-6 col-12-small">
+						<input type="text" name="company" autocomplete="off" id="company" required  value="" placeholder="Company" />
+					</div> -->
+					
+					<div class="col-12" >
+						<textarea name="message" autocomplete="off" id="message" required placeholder="Enter your message" rows="6"></textarea>
+					</div>
+
+					<div class="col-12" >
+						<ul class="actions" id="send-button">
+							<li><input  type="submit" id="submit" value="Send Message" name="Subscribe" style="background-color:dodgerblue" /></li>
+						</ul>
+					</div>
+				</div>
+				
+			</form>	
+		</section>
+		<!-- Footer -->
+		<footer id="footer">
+			<ul class="icons">
+				<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+				<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+				<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+				<li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+			</ul>
+			<ul class="copyright">
+				<li>© 2019 Areon Mobility Technologies Private Ltd. All Rights Reserved</li>
+			</ul>
+		</footer>
+  
+	</div>
+
+	<!-- Scripts -->
+	<script src="{% static 'assets/js/jquery.min.js' %}"></script>
+	<script src="{% static 'assets/js/jquery.scrolly.min.js' %}"></script>
+	<script src="{% static 'assets/js/jquery.dropotron.min.js' %}"></script>
+	<script src="{% static 'assets/js/jquery.scrollex.min.js' %}"></script>
+	<script src="{% static 'assets/js/browser.min.js' %}"></script>
+	<script src="{% static 'assets/js/breakpoints.min.js' %}"></script>
+	<script src="{% static 'assets/js/util.js' %}"></script>
+	<script src="{% static 'assets/js/main.js' %}"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<!-- Jquery Script CDN -->
+	<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
+	
+    <!-- pop-up alert for contact form -->
+	<script>
+		$('#submit').click(function(){
+			var name = $('#name').val();
+			var email = $('#email').val();
+			var message = $('#message').val();
+			
+
+			if (name =='' || email == '' || message == ''){
+				swal({
+					title: "Missing Fields!",
+					text: "Please fill all Fields!",
+					icon: "info",
+					button: "Got it",
+					});
+			}
+			else { 
+				
+				swal({
+					title: "Thank You",
+					text: "We will get back to you shortly",
+					icon: "success",
+					button: "Alright",
+					});
+			}
+			
+		});
+	</script>
+    
+
+	
+</body>
+
+
+</html>
+		
